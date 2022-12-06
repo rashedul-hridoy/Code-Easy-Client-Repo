@@ -1,0 +1,17 @@
+.img-container{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.img-container img{
+    height: 300px;
+}
+
+@media only screen and (max-width:600px){
+    .img-container{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .img-container img{
+        width: 350px;
+    }
+}
